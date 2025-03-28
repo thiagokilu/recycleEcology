@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recycle Ecology</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/a75e615f85.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gray-50">
+    <!-- Menu -->
+    <nav class="bg-green-600 shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <a href="#" class="flex items-center py-4">
+                        <span class="font-semibold text-white text-lg">Recycle Ecology</span>
+                    </a>
+                </div>
+                
+                <!-- Menu Desktop -->
+                <div class="hidden md:flex items-center space-x-3">
+                    <a href="index.html" class="py-2 px-4 text-white hover:bg-green-700 rounded">Início</a>
+                    <a href="comofunciona.html" class="py-2 px-4 text-white hover:bg-green-700 rounded">Como Funciona</a>
+                    <a href="contato.html" class="py-2 px-4 text-white hover:bg-green-700 rounded">Contato</a>
+                    <a href="#" class="py-2 px-4 text-white hover:bg-green-700 rounded">Login/Cadastro</a>
+                </div>
+                
+                <!-- Botão Mobile -->
+                <button id="mobileMenu" class="md:hidden flex items-center text-white p-3">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Menu Mobile -->
+        <div id="mobileNav" class="hidden md:hidden">
+            <a href="index.html" class="block py-2 px-4 text-white hover:bg-green-700">Início</a>
+            <a href="comofunciona.html" class="block py-2 px-4 text-white hover:bg-green-700">Como Funciona</a>
+            <a href="contato.html" class="block py-2 px-4 text-white hover:bg-green-700">Contato</a>
+            <a href="#" class="block py-2 px-4 text-white hover:bg-green-700">Login/Cadastro</a>
+        </div>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <main class="max-w-6xl mx-auto px-4 py-8">
+        <section class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-green-600 mb-6">RECYCLE ECOLOGY</h1>
+            
+            <div class="mb-12">
+                <h2 class="text-2xl font-semibold mb-4" id="quemsomos">Quem Somos?</h2>
+                <img src="logodarecyclesf.png" alt="Logo Recycle" class="mx-auto w-64 mb-6">
+                <p class="text-gray-600 mb-6">
+                    Realizamos coleta de lixo eletrônico e ajudamos no descarte correto. <br>
+                    Evite a contaminação por metais pesados como chumbo, níquel e arsênio.
+                </p>
+            </div>
+
+            <div class="mb-12">
+                <h2 class="text-2xl font-semibold mb-4">Reciclagem no Brasil</h2>
+                <img src="./pagina gustavo/recilcagem.jpeg" alt="Reciclagem" class="mx-auto mb-6 rounded-lg shadow-md w-full md:w-1/2">
+                <p class="text-gray-600 mb-6">
+                    Apenas 4% dos resíduos sólidos são reciclados, índice abaixo de países como Chile e Argentina.
+                </p>
+                <small class="text-gray-400">Fonte: Agência Brasil</small>
+            </div>
+
+            <div class="mb-12">
+                <h2 class="text-2xl font-semibold mb-4" id="lixoeletronico">Lixo Eletrônico</h2>
+                <img src="./pagina gustavo/lixoeletronico.jpg" alt="Lixo Eletrônico" class="mx-auto mb-6 rounded-lg shadow-md w-full md:w-1/2">
+                <p class="text-gray-600">
+                    Contém substâncias tóxicas que contaminam solo e água. Contribua para um descarte seguro.
+                </p>
+            </div>
+
+            <div class="mb-12">
+                <h2 class="text-2xl font-semibold mb-4" id="dados">Dados de Reciclagem</h2>
+                <img src="./pagina gustavo/grafico.jpeg.svg" alt="Gráfico" class="mx-auto mb-6 rounded-lg shadow-md w-full md:w-1/2">
+                <small class="text-gray-400">Fonte: Reciclar pelo Brasil</small>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-green-600 text-white">
+        <div class="max-w-6xl mx-auto px-4 py-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="font-bold mb-4">Recycle</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#quemsomos" class="hover:text-green-200">Quem Somos</a></li>
+                        <li><a href="#lixoeletronico" class="hover:text-green-200">Lixo Eletrônico</a></li>
+                        <li><a href="#dados" class="hover:text-green-200">Dados</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold mb-4">Ajuda</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-green-200">FAQ</a></li>
+                        <li><a href="#" class="hover:text-green-200">Transporte</a></li>
+                        <li><a href="#" class="hover:text-green-200">Pontos de Coleta</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold mb-4">Como Funciona</h4>
+                    <ul class="space-y-2">
+                        <li><a href="comofunciona.html#separacao" class="hover:text-green-200">Separação</a></li>
+                        <li><a href="comofunciona.html#agendamento" class="hover:text-green-200">Agendamento</a></li>
+                        <li><a href="comofunciona.html#coleta" class="hover:text-green-200">Coleta</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold mb-4">Redes Sociais</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-2xl hover:text-green-200"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/recycleecology/" class="text-2xl hover:text-green-200"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@recycleecology" class="text-2xl hover:text-green-200"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://twitter.com/recycleecology" class="text-2xl hover:text-green-200"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-green-500 mt-8 pt-4 text-center">
+                <p>&copy; 2024 Recycle Ecology. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Widget -->
+    <a href="https://api.whatsapp.com/send?phone=5561982633158" 
+       class="fixed bottom-6 right-6 bg-green-500 w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:bg-green-600">
+        <i class="fab fa-whatsapp text-white text-2xl"></i>
+    </a>
+
+    <script>
+        // Menu Mobile
+        document.getElementById('mobileMenu').addEventListener('click', function() {
+            const mobileNav = document.getElementById('mobileNav');
+            mobileNav.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
